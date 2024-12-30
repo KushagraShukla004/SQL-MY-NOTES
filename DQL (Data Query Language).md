@@ -24,4 +24,4 @@ The DESCRIBE command displays metadata about the columns, indexes, and data pa
 ### SELECT vs DESCRIBE
 
 >Example: 
->![SELECTvsDESCRIBE](SELECTvsDESCRIBE.png)
+>![SELECTvsDESCRIBE](SS/SELECTvsDESCRIBE.png)
