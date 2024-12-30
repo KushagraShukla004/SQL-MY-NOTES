@@ -1,11 +1,11 @@
 #sqlCommands #cmdCommands
 
-### Starting MySQL in cmd:
+## Starting MySQL in cmd:
 ```
 mysql -u root -p
 ```
 
-#### To clear whole screen:
+## To clear whole screen:
 ```
 system cls
 ```
@@ -18,23 +18,23 @@ OR
 \! cls
 ```
 
-#### To see all the databases in mysql:
+## To see all the databases in mysql:
 ```
 SHOW DATABASES;
 ```
 
-#### To use a database:
+## To use a database:
 ```
 use db_name;
 ```
 
-#### To create a database:
+## To create a database:
 ```
 CREATE DATABASE db_name;
 ```
 
 > After creating database we have to use `use db_name;` command in order to "use" the database to perform CRUD (CREATE, READ, UPDATE, DELETE) operations on.
-#### To create a table:
+## To create a table:
 ```
 CREATE TABLE table_name (
 col_name1 INT PRIMARY KEY,
@@ -43,7 +43,7 @@ col_name2 VARCHAR(20),
 ```
 
 > You can write the whole query in single line , it's just to increase readability.
-#### To insert values in the table:
+## To insert values in the table:
 ```
 INSERT INTO table_name 
 (rollNo,name) VALUES 
@@ -62,7 +62,7 @@ Output of Above Query:
 | 2      | Anything |
 > Hence, we can understand which value comes first and which column datatype is INT and which is VARCHAR (String).
 
-#### To drop a database:
+## To drop a database:
 ```
 DROP DATABASE db_name;
 ```
