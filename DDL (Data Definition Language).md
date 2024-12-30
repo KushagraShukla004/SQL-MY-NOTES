@@ -7,7 +7,7 @@ indexes, constraints, and more.
 
 > - All the command of DDL are #auto-committed that means it permanently save all the changes in the database.
 
-![[SS/DDL Commands.png]]
+![DDL Commands](SS/DDL Commands.png)
 ## Commands:
 
 ## Database related Queries:
