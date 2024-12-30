@@ -55,6 +55,7 @@ CREATE DATABASE db_name;
 >  
 > When using `#`: 
 > SQL ignore everything written after `#` and if we press `ENTER` it will simply move to next line for completing the SQL QUERY. 
+>
 > ![InlineComment](SS/inlineComment.png)
 
 
