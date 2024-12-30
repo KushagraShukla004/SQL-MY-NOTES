@@ -157,5 +157,3 @@ SYNTAX:
 ALTER TABLE table_name
 clause [column_name] [datatype];
 ```
-`
-
