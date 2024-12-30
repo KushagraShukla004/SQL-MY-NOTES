@@ -1,5 +1,6 @@
 #sqlCommands #cmdCommands
 
+These are MYSQL Commands list only.
 ## Starting MySQL in cmd:
 ```
 mysql -u root -p
