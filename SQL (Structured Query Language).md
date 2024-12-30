@@ -23,7 +23,6 @@ Some Frequently used Data Types are:
 
 <hr>
 
----
 ## SQL Commands
 
 #### 1.  [DQL (Data Query Language)](DQL%20(Data%20Query%20Language).md) : Used to retrieve data from databases. (SELECT)
