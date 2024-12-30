@@ -1,5 +1,5 @@
 
-It is a program that allows us to create, delete, and update a relational database. A Relational Database is a database system that stores and retrieves data in a tabular format organized in the form of rows and columns. It is a smaller subset of DBMS which was designed by E.F Codd in the 1970s. The major DBMSs like [[SQL (Structured Query Language)]], and [ORACLE](https://www.geeksforgeeks.org/oracle-architecture/) are all based on the principles of relational DBMS. 
+It is a program that allows us to create, delete, and update a relational database. A Relational Database is a database system that stores and retrieves data in a tabular format organized in the form of rows and columns. It is a smaller subset of DBMS which was designed by E.F Codd in the 1970s. The major DBMSs like [SQL (Structured Query Language)](SQL%20(Structured%20Query%20Language).md), and [ORACLE](https://www.geeksforgeeks.org/oracle-architecture/) are all based on the principles of relational DBMS. 
 
 Relational DBMS owes its foundation to the fact that the values of each table are related to others. It has the capability to handle larger magnitudes of data and simulate queries easily.
 

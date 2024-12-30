@@ -1,6 +1,6 @@
 #sqlCommands #tableQuery
 
-It is a subset of [[SQL (Structured Query Language)]]
+It is a subset of [SQL (Structured Query Language)](SQL%20(Structured%20Query%20Language).md)
 
 
 ## Commands:
@@ -24,4 +24,4 @@ The DESCRIBE command displays metadata about the columns, indexes, and data pa
 ### SELECT vs DESCRIBE
 
 >Example: 
->![[SELECTvsDESCRIBE.png]]
+>![SELECTvsDESCRIBE](SELECTvsDESCRIBE.png)

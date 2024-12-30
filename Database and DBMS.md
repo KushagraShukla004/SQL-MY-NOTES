@@ -40,5 +40,5 @@ A **database** is an organized collection of data stored in a computer system 
 
 ### Type of DBMS
 
-- [[Relational DBMS]] (SQL)
-- [[Non-Relational DBMS]] (NoSQL)
+- [Relational DBMS](Relational%20DBMS.md) (SQL)
+- [Non-Relational DBMS](Non-Relational%20DBMS.md) (NoSQL)

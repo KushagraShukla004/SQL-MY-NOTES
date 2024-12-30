@@ -14,7 +14,7 @@ In SQL, data types define the kind of data that can be stored in a column or var
 
 Some Frequently used Data Types are:
 
-![[SQL DataTypes.png]]
+![SQLDataTypes](SS/SQLDataTypes.png)
 
 [All data types of MYSQL](https://dev.mysql.com/doc/refman/8.0/en/data-types.html)
 
@@ -26,14 +26,14 @@ Some Frequently used Data Types are:
 ---
 ## SQL Commands
 
-#### 1.  [[DQL (Data Query Language)]] : Used to retrieve data from databases. (SELECT)
+#### 1.  [DQL (Data Query Language)](DQL%20(Data%20Query%20Language).md) : Used to retrieve data from databases. (SELECT)
 
 > Although often considered part of DML, the SQL `SELECT` statement is strictly speaking an example of DQL. When adding `FROM` or `WHERE` data manipulators to `SELECT` , the statement is then considered part of the DML.
-#### 2. [[DDL (Data Definition Language)]] : Used to create, alter, and delete database objects like tables, indexes, etc. (CREATE, DROP, ALTER, RENAME, TRUNCATE)
+#### 2. [DDL (Data Definition Language)](DDL%20(Data%20Definition%20Language).md) : Used to create, alter, and delete database objects like tables, indexes, etc. (CREATE, DROP, ALTER, RENAME, TRUNCATE)
 #### 3. DML (Data Manipulation Language): Used to modify the database. (INSERT, UPDATE, DELETE)
 #### 4. DCL (Data Control Language): Used to grant & revoke permissions. (GRANT, REVOKE)
 #### 5. TCL (Transaction Control Language): Used to manage transactions. (COMMIT, ROLLBACK, START TRANSACTIONS, SAVEPOINT)
 
-![[SQL Commands.png]]
+![SQLCommands](SS/SQLCommands.png)
 
 > `DESCRIBE` : considered a metadata command used to retrieve information about the structure of database objects, primarily tables.

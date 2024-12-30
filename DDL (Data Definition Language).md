@@ -7,7 +7,7 @@ indexes, constraints, and more.
 
 > - All the command of DDL are #auto-committed that means it permanently save all the changes in the database.
 
-![[SS/DDL Commands.png]]
+![DDL Commands](SS/DDLCommands.png)
 ## Commands:
 
 ## Database related Queries:
@@ -23,7 +23,7 @@ SYNTAX-1:
 CREATE DATABASE db_name;
 ```
 
-![[SS/Create.png]]
+![CREATE](SS/Create.png)
 
 ---
 #### Things to REMEMBER:
@@ -34,8 +34,7 @@ CREATE DATABASE db_name;
 2. **Lowercase Letters**: It is advisable to use lowercase letters for all identifiers, including database names, table names, and column names. This practice helps avoid confusion and potential errors when referencing these names in queries
 
 > SQL will always convert database_name or table_name into **Lowercase** .i.e.  :
-> ![[SS/CreateQueryLowerCase.png]]
-> 
+> ![CreateQueryLowerCase](SS/CreateQueryLowerCase.png)
 
 3. **Underscore Separation**: When separating words in identifiers, use underscores (e.g., `first_name`) instead of spaces or CamelCase (e.g., `FirstName`)
 4. **Avoid Special Characters**: Refrain from using special characters (like `$`, `#`, etc.) in names unless necessary, as they can complicate queries and require quoting.
@@ -51,12 +50,12 @@ CREATE DATABASE db_name;
 >    
    ***Deprecation Warnings:*** While the dollar sign can be used as the first character in unquoted identifiers, it is important to note that this practice is deprecated in some SQL versions. This means that while it works, it may trigger warnings about future compatibility.
 >    
->  ![[SS/CREATE with $.png]]
+>  ![CREATE](SS/CREATEwith$.png)
 >  ---
 >  
 > When using `#`: 
 > SQL ignore everything written after `#` and if we press `ENTER` it will simply move to next line for completing the SQL QUERY. 
-> ![[SS/inlineComment.png]]
+> ![InlineComment](SS/inlineComment.png)
 
 
 ### DROP DATABASE: 
@@ -68,7 +67,7 @@ It is used to delete both the structure and record stored in the table. or datab
 DROP DATABASE db_name; 
 ```
 
-![[SS/Create,Drop.png]]
+![Create,Drop](SS/Create,Drop.png)
 
 
 ---
@@ -96,7 +95,7 @@ It helps in error handling without crashing the query.
 
 Example:
 
-> ![[SS/IF NOT EXISTS.png]]
+> ![If not exists](SS/IFNOTEXISTS.png)
 
 As you can see , if the same DB exists it doesn't show any error or the query doesn't crashes , instead , It just doesn't create the database.
 
@@ -112,7 +111,7 @@ If doesn't exists then do nothing and move on!.
 No errors shown.
 
 Example:
-> ![[SS/IF EXISTS.png]]
+> ![If Exists](SS/IFEXISTS.png)
 
 As you can see it doesn't show any error even if the DB name doesn't exists.
 
@@ -133,7 +132,7 @@ column_name2 datatype constraint,
 ```
 
 Example:
-> ![[SS/TableQueries.png]]
+> ![TableQueries](SS/TableQueries.png)
 
 > DESCRIBE Command is a metadata command.
 > 
