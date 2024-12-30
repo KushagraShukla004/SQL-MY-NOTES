@@ -7,10 +7,9 @@ indexes, constraints, and more.
 
 > - All the command of DDL are #auto-committed that means it permanently save all the changes in the database.
 
-![[DDL Commands.png]]
+![[SS/DDL Commands.png]]
 ## Commands:
 
----
 ## Database related Queries:
 
 #databaseQuery
@@ -24,7 +23,7 @@ SYNTAX-1:
 CREATE DATABASE db_name;
 ```
 
-![[Create.png]]
+![[SS/Create.png]]
 
 ---
 #### Things to REMEMBER:
@@ -35,7 +34,8 @@ CREATE DATABASE db_name;
 2. **Lowercase Letters**: It is advisable to use lowercase letters for all identifiers, including database names, table names, and column names. This practice helps avoid confusion and potential errors when referencing these names in queries
 
 > SQL will always convert database_name or table_name into **Lowercase** .i.e.  :
-> ![[CreateQueryLowerCase.png]]
+> ![[SS/CreateQueryLowerCase.png]]
+> 
 
 3. **Underscore Separation**: When separating words in identifiers, use underscores (e.g., `first_name`) instead of spaces or CamelCase (e.g., `FirstName`)
 4. **Avoid Special Characters**: Refrain from using special characters (like `$`, `#`, etc.) in names unless necessary, as they can complicate queries and require quoting.
@@ -51,12 +51,12 @@ CREATE DATABASE db_name;
 >    
    ***Deprecation Warnings:*** While the dollar sign can be used as the first character in unquoted identifiers, it is important to note that this practice is deprecated in some SQL versions. This means that while it works, it may trigger warnings about future compatibility.
 >    
->  ![[CREATE with $.png]]
+>  ![[SS/CREATE with $.png]]
 >  ---
 >  
 > When using `#`: 
 > SQL ignore everything written after `#` and if we press `ENTER` it will simply move to next line for completing the SQL QUERY. 
-> ![[inlineComment.png]]
+> ![[SS/inlineComment.png]]
 
 
 ### DROP DATABASE: 
@@ -68,7 +68,7 @@ It is used to delete both the structure and record stored in the table. or datab
 DROP DATABASE db_name; 
 ```
 
-![[Create,Drop.png]]
+![[SS/Create,Drop.png]]
 
 
 ---
@@ -80,8 +80,6 @@ DROP TABLE table_name [cascade constraint];
 
 The cascade constraint is an optional parameter which is used for tables which have foreign keys that reference the table being dropped. If cascade constraint is not specified and used attempt to drop a table that has records in a child table, then an error will occur. So by using cascade constraints, all child table foreign keys are dropped.
 
-
----
 
 ---
 
@@ -98,7 +96,7 @@ It helps in error handling without crashing the query.
 
 Example:
 
-> ![[IF NOT EXISTS.png]]
+> ![[SS/IF NOT EXISTS.png]]
 
 As you can see , if the same DB exists it doesn't show any error or the query doesn't crashes , instead , It just doesn't create the database.
 
@@ -114,14 +112,13 @@ If doesn't exists then do nothing and move on!.
 No errors shown.
 
 Example:
-> ![[IF EXISTS.png]]
+> ![[SS/IF EXISTS.png]]
 
 As you can see it doesn't show any error even if the DB name doesn't exists.
 
 
 ---
 
----
 ## Table related Queries:
 
 #tableQuery
@@ -136,7 +133,7 @@ column_name2 datatype constraint,
 ```
 
 Example:
-> ![[TableQueries.png]]
+> ![[SS/TableQueries.png]]
 
 > DESCRIBE Command is a metadata command.
 > 
