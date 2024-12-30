@@ -36,3 +36,14 @@ Some Frequently used Data Types are:
 ![SQLCommands](SS/SQLCommands.png)
 
 > `DESCRIBE` : considered a metadata command used to retrieve information about the structure of database objects, primarily tables.
+
+## Keys in SQL :
+
+**Primary Key :**
+- It is a column (or set of columns) in a table that uniquely identifies each row. (a unique id)
+- There is only 1 PK & it should be NOT null.
+
+**Foreign Key :**
+- A foreign key is a column (or set of columns) in a table that refers to the primary key in another table.
+- There can be multiple FKs.
+- FKs can have duplicate & null values.

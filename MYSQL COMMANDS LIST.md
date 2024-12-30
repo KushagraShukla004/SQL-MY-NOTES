@@ -23,18 +23,22 @@ OR
 ```
 SHOW DATABASES;
 ```
-
-## To use a database:
-```
-use db_name;
-```
-
 ## To create a database:
 ```
 CREATE DATABASE db_name;
 ```
 
 > After creating database we have to use `use db_name;` command in order to "use" the database to perform CRUD (CREATE, READ, UPDATE, DELETE) operations on.
+
+## To use a database:
+```
+use db_name;
+```
+
+## To see all the tables in the database:
+```
+show tables;
+```
 ## To create a table:
 ```
 CREATE TABLE table_name (
@@ -48,8 +52,8 @@ col_name2 VARCHAR(20),
 ```
 INSERT INTO table_name 
 (rollNo,name) VALUES 
-(1,"John Doe")
-(2, "Anything")
+(1,"John Doe"),
+(2, "Anything");
 ```
 
 > Writing column name helps remembering order of values to put in because if the order changes then the column it will be put into will change as well which could lead to datatype errors and misplaced information. 
