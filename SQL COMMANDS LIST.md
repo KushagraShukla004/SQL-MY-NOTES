@@ -1,6 +1,6 @@
 #sqlCommands #cmdCommands
 
-#### Starting MySQL in cmd:
+## Starting MySQL in cmd:
 ```
 mysql -u root -p
 ```
