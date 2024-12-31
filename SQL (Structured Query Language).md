@@ -8,6 +8,13 @@ We use SQL for CRUD Operations :
 - UPDATE - Modify already inserted data.
 - DELETE - Delete database, table or specific data point/tuple/row or multiple rows.
 
+> FUN FACT :-
+> SQL was invented in the 1970s by IBM, based on the relational data model.
+> 
+> It was originally known as SEQUEL (**structured English query language**).
+> 
+> Oracle, formerly known as **Relational Software**, became the first vendor to offer a commercial SQL relational database management system.
+
 <hr>
 ## SQL Data Types
 In SQL, data types define the kind of data that can be stored in a column or variable.
@@ -39,11 +46,27 @@ Some Frequently used Data Types are:
 
 ## Keys in SQL :
 
+Keys are one of the basic requirements of a relational database model. It is widely used to identify the tuples(rows) uniquely in the table. We also use keys to set up relations amongst various columns and tables of a relational database.
+
+---
+### Types of Keys : 
+
+- Candidate Key
+- Primary Key
+- Super Key
+- Alternate Key
+- Foreign Key
+- Composite Key
+---
+### Summary of Keys in SQL
+(for in-depth knowledge refer to : [[Types of Keys in SQL]])
+
 **Primary Key :**
 - It is a column (or set of columns) in a table that uniquely identifies each row. (a unique id)
 - There is only 1 PK & it should be NOT null.
-
+---
 **Foreign Key :**
 - A foreign key is a column (or set of columns) in a table that refers to the primary key in another table.
 - There can be multiple FKs.
 - FKs can have duplicate & null values.
+---
