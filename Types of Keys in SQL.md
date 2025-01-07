@@ -1,5 +1,5 @@
 
-## Candidate Key:
+## 1. Candidate Key:
 #### Definition:
 A Candidate Key is a set of one or more fields/columns that can identify a record uniquely in a table. There can be multiple Candidate Keys in one table. Each Candidate Key can work as a Primary Key.
 
@@ -9,13 +9,13 @@ A Candidate Key is a set of one or more fields/columns that can identify a recor
 
 Basically a ***Candidate Key*** is a ***super key*** with no repeated data.
 
-## Super Key :
+## 2. Super Key :
 
 #### Definition:
 A super key is a set of one or more than one key that can be used to identify a record uniquely in a table. 
 **Example:** Primary key, Unique key, and Alternate key are a subset of Super Keys.
 
-## Primary Key :
+## 3. Primary Key :
 #### Definition :
 A primary key is a set of one or more fields/columns of a table that uniquely identify a record in a database table. It can not accept null, or duplicate values.
 
@@ -29,21 +29,21 @@ A primary key is a set of one or more fields/columns of a table that uniquely id
 
 #### Relation Diagram from [GeeksforGeeks](https://www.geeksforgeeks.org/types-of-keys-in-relational-model-candidate-super-primary-alternate-and-foreign/)
 ![Keys Relation](SS/KeysVenn.png)
-## Foreign Key :
+## 4. Foreign Key :
 
 ![ForeignKeyEx](SS/ForeignKeyEx.png)
 
 
-## Alternate Key:
+## 5. Alternate Key:
 
 An Alternate key is a key that can work as a primary key. It is a candidate key that currently is not a primary key. It is also called a secondary key.
 
-## Composite/Compound Key:
+## 6. Composite/Compound Key:
 A composite Key is a combination of more than one field/column of a table. It can be a Candidate key or a primary key.
 
 > It gets its importance when it's not possible for a single column/attribute to uniquely identify all the records of a table. It acts as a primary key if there is no primary key in a table.
 
-## Unique Key
+## 7. Unique Key
 
 Unique Key can be a column or set of columns that can be used to uniquely identify the tuple from the database. One or more fields can be declared as a unique Key. 
 
