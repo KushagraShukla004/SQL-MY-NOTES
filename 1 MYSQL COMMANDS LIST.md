@@ -71,6 +71,37 @@ CREATE TABLE Orders (
     FOREIGN KEY (PersonID) REFERENCES Persons(PersonID)  
 );
 ```
+---
+#### (Advance) Two ways to handle Foreign keys For additional security :
+##### 1. ON DELETE SET NULL :
+```
+CREATE TABLE child_table (  
+    id INT PRIMARY KEY,  
+    parent_id INT,  
+    detail VARCHAR(100),  
+    FOREIGN KEY (parent_id) REFERENCES parent_table(id) ON DELETE SET NULL  
+);
+```
+
+> The ***ON DELETE SET NULL*** option updates the **foreign key** column in the child table to `NULL` when the corresponding parent record is deleted. 
+> 
+> This approach preserves the child record while removing its reference to the parent. 
+> 
+> This is another way to maintain ***reference integrity***, allowing the ***child records*** to exist but with the ***NULL reference*** if the ***parent record*** is deleted.
+
+##### 2. ON DELETE CASCADE :
+```
+CREATE TABLE child_table (  
+    id INT PRIMARY KEY,  
+    parent_id INT,  
+    detail VARCHAR(100),  
+    FOREIGN KEY (parent_id) REFERENCES parent_table(id) ON DELETE CASCADE  
+);
+```
+
+> The ***ON DELETE CASCADE*** for a foreign key constraint means that if a record in the ***parent table*** (referenced table) is ***deleted*** then all related records in the ***child table*** (referencing table) will be automatically deleted. 
+> 
+> This ensures the ***referential integrity*** by removing ***dependent records*** when the referenced record is removed.
 
 ## 📝 To Update a value in table:
 ```
