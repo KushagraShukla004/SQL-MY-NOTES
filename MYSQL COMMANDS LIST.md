@@ -84,3 +84,13 @@ UPDATE student
 SET subject = "Biology"
 WERE subject = "Bio"; 
 ```
+
+## To Delete records from a Table:
+```
+DELETE FROM Table_Name WHERE condition;
+```
+
+To delete every record in the Table :
+```
+DELETE FROM Table_Name;
+```

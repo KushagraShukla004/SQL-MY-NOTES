@@ -56,6 +56,11 @@ SYNTAX :
 DELETE FROM Table_Name WHERE condition;
 ```
 
+To delete every record in the table:
+```
+DELETE FROM Table_Name;
+```
+
 Example :
 ```
 DELETE FROM student WHERE stud_id = 101;
