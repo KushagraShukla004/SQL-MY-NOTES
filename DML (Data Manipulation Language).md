@@ -1,3 +1,4 @@
+#sqlCommands 
 ## INSERT : 
 
 **Definition :** Allows users to insert data in database tables.

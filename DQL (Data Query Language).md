@@ -2,7 +2,6 @@
 
 It is a subset of [SQL (Structured Query Language)](SQL%20(Structured%20Query%20Language).md)
 
-
 ## Commands:
 
 ## SELECT:

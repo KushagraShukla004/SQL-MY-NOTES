@@ -1,5 +1,4 @@
 #sql 
-
 ## 1. Candidate Key:
 #### Definition:
 A Candidate Key is a set of one or more fields/columns that can identify a record uniquely in a table. There can be multiple Candidate Keys in one table. Each Candidate Key can work as a Primary Key.
