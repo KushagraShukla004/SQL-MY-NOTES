@@ -56,7 +56,7 @@ SYNTAX :
 DELETE FROM Table_Name WHERE condition;
 ```
 
-To delete every record in the table:
+To delete every record in the table (basically empty the table):
 ```
 DELETE FROM Table_Name;
 ```
