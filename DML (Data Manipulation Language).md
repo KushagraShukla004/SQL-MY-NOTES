@@ -29,6 +29,7 @@ Output of Above Query:
 > Hence, we can understand which value comes first and which column datatype is INT and which is VARCHAR (String).
 
 Example:
+
 ![Insert Query](SS/INSERTQuery.png)
 ## UPDATE :
 
