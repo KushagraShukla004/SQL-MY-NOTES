@@ -100,7 +100,28 @@ Show / Select records of all columns
 ```
 SELECT * FROM table_name;
 ```
-Show / Select records of specific columns only :
+---
+Show / Select records of specific columns only ( you can add (n) number of cols)  :
 ```
-SELECT col_name FROM table_name;
+SELECT col1_name, col2_name FROM table_name;
+```
+---
+Show / Select columns from different tables together:
+```
+SELECT table1.col_name, table2.col_name FROM table1, table2;
+```
+---
+Show / Select records in order:
+Ascending Order:
+```
+SELECT col_name FROM table_name ORDER BY col_name ASC;
+```
+Descending Order:
+```
+SELECT col_name FROM table_name ORDER BY col_name DESC;
+```
+---
+Show / Select limited number of records only: 
+```
+SELECT col_name FROM table_name LIMIT 2;
 ```
