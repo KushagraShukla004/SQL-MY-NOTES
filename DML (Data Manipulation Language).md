@@ -27,6 +27,9 @@ Output of Above Query:
 | 1      | JohnDoe  |
 | 2      | Anything |
 > Hence, we can understand which value comes first and which column datatype is INT and which is VARCHAR (String).
+
+Example:
+![Insert Query](SS/INSERTQuery.png)
 ## UPDATE :
 
 **Definition :** Allows users to update or modify the existing data in database tables.
