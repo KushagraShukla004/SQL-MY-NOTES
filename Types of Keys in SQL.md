@@ -6,9 +6,9 @@ A Candidate Key is a set of one or more fields/columns that can identify a recor
 
 > The value for the Candidate key is always unique and non-null for all the tuples types.
 >  
-> Every table has to have at least one Candidate key, but there can be more than one candidate key can be there in a table. >
-
-Basically a ***Candidate Key*** is a ***super key*** with no repeated data.
+> Every table has to have at least one Candidate key, but there can be more than one candidate key can be there in a table.
+> 
+> Basically a ***Candidate Key*** is a ***super key*** with no repeated data.
 
 ## 2. Super Key :
 

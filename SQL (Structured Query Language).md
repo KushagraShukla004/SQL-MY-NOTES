@@ -36,7 +36,7 @@ Some Frequently used Data Types are:
 
 > Although often considered part of DML, the SQL `SELECT` statement is strictly speaking an example of DQL. When adding `FROM` or `WHERE` data manipulators to `SELECT` , the statement is then considered part of the DML.
 #### 2. [DDL (Data Definition Language)](DDL%20(Data%20Definition%20Language).md) : Used to create, alter, and delete database objects like tables, indexes, etc. (CREATE, DROP, ALTER, RENAME, TRUNCATE)
-#### 3. [[DML (Data Manipulation Language)]] : Used to modify the database. (INSERT, UPDATE, DELETE)
+#### 3. [DML (Data Manipulation Language)](DML%20(Data%20Manipulation%20Language).md) : Used to modify the database. (INSERT, UPDATE, DELETE)
 #### 4. DCL (Data Control Language) : Used to grant & revoke permissions. (GRANT, REVOKE)
 #### 5. TCL (Transaction Control Language) : Used to manage transactions. (COMMIT, ROLLBACK, START TRANSACTIONS, SAVEPOINT)
 
@@ -57,9 +57,11 @@ Keys are one of the basic requirements of a relational database model. It is wid
 - Alternate Key
 - Foreign Key
 - Composite Key
+
+(for in-depth knowledge refer to : [Types of Keys in SQL](Types%20of%20Keys%20in%20SQL.md))
+
 ---
-### Summary of Keys in SQL
-(for in-depth knowledge refer to : [[Types of Keys in SQL]])
+### Important Keys in SQL
 
 **Primary Key :**
 - It is a column (or set of columns) in a table that uniquely identifies each row. (a unique id)
