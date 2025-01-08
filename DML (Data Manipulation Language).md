@@ -31,6 +31,8 @@ Output of Above Query:
 Example:
 
 ![Insert Query](SS/INSERTQuery.png)
+
+---
 ## UPDATE :
 
 **Definition :** Allows users to update or modify the existing data in database tables.
@@ -48,6 +50,8 @@ UPDATE student
 SET subject = "Biology"
 WERE subject = "Bio"; 
 ```
+
+---
 ## DELETE :
 
 **Definition :** Allows users to remove single or multiple existing records from the database tables.
