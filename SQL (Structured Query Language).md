@@ -36,9 +36,9 @@ Some Frequently used Data Types are:
 
 > Although often considered part of DML, the SQL `SELECT` statement is strictly speaking an example of DQL. When adding `FROM` or `WHERE` data manipulators to `SELECT` , the statement is then considered part of the DML.
 #### 2. [DDL (Data Definition Language)](DDL%20(Data%20Definition%20Language).md) : Used to create, alter, and delete database objects like tables, indexes, etc. (CREATE, DROP, ALTER, RENAME, TRUNCATE)
-#### 3. DML (Data Manipulation Language): Used to modify the database. (INSERT, UPDATE, DELETE)
-#### 4. DCL (Data Control Language): Used to grant & revoke permissions. (GRANT, REVOKE)
-#### 5. TCL (Transaction Control Language): Used to manage transactions. (COMMIT, ROLLBACK, START TRANSACTIONS, SAVEPOINT)
+#### 3. [[DML (Data Manipulation Language)]] : Used to modify the database. (INSERT, UPDATE, DELETE)
+#### 4. DCL (Data Control Language) : Used to grant & revoke permissions. (GRANT, REVOKE)
+#### 5. TCL (Transaction Control Language) : Used to manage transactions. (COMMIT, ROLLBACK, START TRANSACTIONS, SAVEPOINT)
 
 ![SQLCommands](SS/SQLCommands.png)
 

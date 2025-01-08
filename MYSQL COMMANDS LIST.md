@@ -1,6 +1,6 @@
 #sqlCommands #cmdCommands
 
-These are MYSQL Commands list only.
+These are MYSQL CMD Commands list only.
 ## Starting MySQL in cmd:
 ```
 mysql -u root -p
@@ -55,19 +55,32 @@ INSERT INTO table_name
 (1,"John Doe"),
 (2, "Anything");
 ```
-
-> Writing column name helps remembering order of values to put in because if the order changes then the column it will be put into will change as well which could lead to datatype errors and misplaced information. 
-> For Example:
-
-Output of Above Query:
-
-| rollNo | Name     |
-| ------ | -------- |
-| 1      | JohnDoe  |
-| 2      | Anything |
-> Hence, we can understand which value comes first and which column datatype is INT and which is VARCHAR (String).
-
 ## To drop a database:
 ```
 DROP DATABASE db_name;
+```
+
+## To Create Foreign Key:
+
+``` 
+CREATE TABLE Orders (  
+    OrderID int NOT NULL,  
+    OrderNumber int NOT NULL,  
+    PersonID int,  
+    PRIMARY KEY (OrderID),  
+    FOREIGN KEY (PersonID) REFERENCES Persons(PersonID)  
+);
+```
+
+## To Update a value in table:
+```
+UPDATE _table_name_  
+SET _column1_ = _value1_, _column2_ = _value2_, ...  
+WHERE _condition_;
+```
+For Example , if you want to change subject name from Bio to Biology: 
+```
+UPDATE student
+SET subject = "Biology"
+WERE subject = "Bio"; 
 ```
